@@ -16,3 +16,10 @@
 5. if you want to create a new test case, just add another input and follow const `input1` and `input2`
 
 # how to run answer 7:
+1. make sure you have npm and node installed
+2. npm install
+3. create db (specs in `config/database.js`)
+4. install postgres
+5. start postgres server
+6. put all migration script from `migration_script` on your db
+7. run with `node app`
